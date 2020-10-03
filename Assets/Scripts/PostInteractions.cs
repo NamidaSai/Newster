@@ -15,18 +15,15 @@ public class PostInteractions : MonoBehaviour
 
     public void Liked()
     {
-        //update affordance
         // add to favorite posts
     }
 
     public void Disliked()
     {
-        // update affordance
     }
 
     public void Shared()
     {
-        // update affordance
         credibility.ModifyCredibility(content.scoreModifier);
         TriggerSharedVFX();
     }

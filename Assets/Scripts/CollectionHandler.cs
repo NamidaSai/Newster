@@ -16,6 +16,7 @@ public class ContentCollection
 
 public class CollectionHandler : MonoBehaviour
 {
+    [SerializeField] int maxStoryIndex = 4;
     [SerializeField] PostContent[] allContents = default;
 
     List<ContentCollection> allCollections = new List<ContentCollection>()
@@ -34,7 +35,24 @@ public class CollectionHandler : MonoBehaviour
     public ContentCollection GetContentCollection()
     {
         int collectionIndex = Random.Range(0, allCollections.Count);
+
+        if (allCollections.TrueForAll(IsFinished))
+        {
+            FindObjectOfType<CredibilityManager>().ModifyCredibility(-100f);
+            return allCollections[collectionIndex];
+        }
+
+        while (IsFinished(allCollections[collectionIndex]))
+        {
+            collectionIndex = Random.Range(0, allCollections.Count);
+        }
+        
         return allCollections[collectionIndex];
+    }
+
+    private bool IsFinished(ContentCollection collection)
+    {
+        return collection.currentStoryIndex == maxStoryIndex;
     }
 
     private void DefineContentCollections()

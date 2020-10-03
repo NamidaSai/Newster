@@ -9,6 +9,7 @@ public class TimelineController : MonoBehaviour
     [SerializeField] GameObject randomPostPrefab = default;
 
     CollectionHandler collectionHandler;
+    ContentCollection collection;
 
     private void Awake() 
     {
@@ -17,7 +18,7 @@ public class TimelineController : MonoBehaviour
 
     public void RefreshTimeline()
     {
-        ContentCollection collection = collectionHandler.GetContentCollection();
+        collection = collectionHandler.GetContentCollection();
 
         foreach (PostContent content in collection.contents)
         {
