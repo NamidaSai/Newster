@@ -14,7 +14,7 @@ public class PostDisplay : MonoBehaviour
     [SerializeField] Image featureImage = null;
     [SerializeField] TextMeshProUGUI source = null;
 
-    private void Awake() 
+    private void Start() 
     {
         profile.text = content.profileText;
         headline.text = content.headlineText;

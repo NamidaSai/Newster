@@ -7,7 +7,7 @@ public class PostInteractions : MonoBehaviour
     CredibilityManager credibility;
     PostContent content;
     
-    private void Awake() 
+    private void Start() 
     {
         credibility = FindObjectOfType<CredibilityManager>(); 
         content = GetComponent<PostDisplay>().content; 
