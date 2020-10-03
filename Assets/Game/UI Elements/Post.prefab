@@ -601,8 +601,8 @@ MonoBehaviour:
   content: {fileID: 11400000, guid: 96460d77a804b5b4587161eb61eb8a56, type: 2}
   profile: {fileID: 4535312317343132443}
   headline: {fileID: 4535312318116899776}
-  featureImage: {fileID: 0}
-  source: {fileID: 0}
+  featureImage: {fileID: 4103235225409899140}
+  source: {fileID: 35932572472549842}
 --- !u!114 &4535312318392532169
 MonoBehaviour:
   m_ObjectHideFlags: 0

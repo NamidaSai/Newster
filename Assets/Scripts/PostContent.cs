@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class PostContent : ScriptableObject
 {
     [Header("Characteristics")]
+    [SerializeField] public string contentID = default;
     [SerializeField] public PostCategory category = default;
     [SerializeField] public int storyIndex = 1;
     [SerializeField] public PostType type = default;

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0ea7873c519f0d4cbe06cf5e9c980de, type: 3}
   m_Name: Example
   m_EditorClassIdentifier: 
+  contentID: example
   category: 0
   storyIndex: 1
   type: 1

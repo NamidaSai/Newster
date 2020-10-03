@@ -5,7 +5,14 @@ using UnityEngine;
 public class TimelineController : MonoBehaviour
 {
     [SerializeField] GameObject postPrefab = default;
-    [SerializeField] PostContent[] contentCollection = default;
+    [SerializeField] List<PostContent> contentCollection = new List<PostContent>();
+
+    LevelController levelController;
+
+    private void Awake() 
+    {
+        levelController = FindObjectOfType<LevelController>();
+    }
 
     public void RefreshTimeline()
     {
@@ -19,7 +26,7 @@ public class TimelineController : MonoBehaviour
     
     private void SelectContentCollection()
     {
-
+        contentCollection = levelController.GetContentCollection();
     }
     
     public void CreateNewPost(PostContent content)
