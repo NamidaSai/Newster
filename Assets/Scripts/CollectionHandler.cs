@@ -14,7 +14,7 @@ public class ContentCollection
     }
 }
 
-public class LevelController : MonoBehaviour
+public class CollectionHandler : MonoBehaviour
 {
     [SerializeField] PostContent[] allContents = default;
 
@@ -31,10 +31,10 @@ public class LevelController : MonoBehaviour
         DefineContentCollections();
     }
 
-    public List<PostContent> GetContentCollection()
+    public ContentCollection GetContentCollection()
     {
-        int collectionIndex = Random.Range(0, allCollections.Count + 1);
-        return allCollections[collectionIndex].contents;
+        int collectionIndex = Random.Range(0, allCollections.Count);
+        return allCollections[collectionIndex];
     }
 
     private void DefineContentCollections()

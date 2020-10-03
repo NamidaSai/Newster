@@ -204,6 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 405153566}
   - component: {fileID: 405153565}
+  - component: {fileID: 405153567}
   m_Layer: 0
   m_Name: Level Controller
   m_TagString: Untagged
@@ -240,6 +241,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &405153567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405153564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 458d3a98afe4ab4428d499c789ee21af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &459932614
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,8 +701,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 682838841b326fa4bbc58e344ede8fde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayBetweenNewPosts: 0.5
   postPrefab: {fileID: 4535312318392532171, guid: da9693c11cd13794db36fa484226cff7, type: 3}
-  contentCollection: []
+  randomPostPrefab: {fileID: 7674316782754599148, guid: 7212d568781d8164b8061f3fa56aeb3b, type: 3}
 --- !u!1 &1480331480
 GameObject:
   m_ObjectHideFlags: 0

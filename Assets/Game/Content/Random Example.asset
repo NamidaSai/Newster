@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Random Example
   m_EditorClassIdentifier: 
   contentID: exampleRandom
-  category: 1
+  category: 0
   storyIndex: 1
   type: 2
   profileText: JustAPoopingGuy

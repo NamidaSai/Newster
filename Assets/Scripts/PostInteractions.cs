@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class PostInteractions : MonoBehaviour
 {
-    [SerializeField] PostType type = default;
+    CredibilityManager credibility;
+    PostContent content;
     
     private void Awake() 
     {
-       type = GetComponent<PostDisplay>().content.type; 
+        credibility = FindObjectOfType<CredibilityManager>(); 
+        content = GetComponent<PostDisplay>().content; 
     }
 
     public void Liked()
@@ -25,22 +27,22 @@ public class PostInteractions : MonoBehaviour
     public void Shared()
     {
         // update affordance
-        
-        if (type == PostType.News)
-        {
-            // increase credibility
-            return;
-        }
+        credibility.ModifyCredibility(content.scoreModifier);
+        TriggerSharedVFX();
+    }
 
-        if (type == PostType.Fake)
+    private void TriggerSharedVFX()
+    {
+        if (content.type == PostType.News)
         {
-            // decrease credibility
-            return;
+            // trigger positive vfx
         }
-
+        else if (content.type == PostType.Fake)
+        {
+            // trigger negative vfx
+        }
         else
         {
-            // do nothing
             return;
         }
     }
