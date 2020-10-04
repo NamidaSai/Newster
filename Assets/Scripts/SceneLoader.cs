@@ -12,6 +12,14 @@ public class SceneLoader : MonoBehaviour
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         
     }
+
+    private void Update() 
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            QuitGame();
+        }
+    }
     
     public void LoadMenu()
     {

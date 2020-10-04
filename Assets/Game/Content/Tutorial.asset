@@ -19,7 +19,7 @@ MonoBehaviour:
   scoreModifier: 0
   profileText: Newster
   headlineText: "Ready to share your first Newt?\nClick the refresh button to start!\n\nElves,
-    dwarves, trolls, goblins,  or even human, all are welcome to newt here to their
+    dwarves, trolls, goblins,  or even humans, all are welcome to newt here to their
     heart's desire! \n\nMake sure to monitor your credibility score!\n\n        Like           
     Share         Dislike"
   featureImage: {fileID: 0}

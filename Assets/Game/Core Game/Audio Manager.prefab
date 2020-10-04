@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7126895458580191066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7126895458580191068}
+  - component: {fileID: 7126895458580191069}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7126895458580191068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7126895458580191066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7126895458580191069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7126895458580191066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8f744e12c64363448d70e60e470ec75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: click
+    clip: {fileID: 8300000, guid: 29d82d995cefc1a42b8b0d1ba66bcfe7, type: 3}
+    volume: 0.1
+    pitch: 2
+    randomPitch: 0
+    loop: 0
+    stopOnPause: 0
+    source: {fileID: 0}
+  - name: liked
+    clip: {fileID: 8300000, guid: e540d05a0a7720749ba782485a0bd320, type: 3}
+    volume: 0.3
+    pitch: 1
+    randomPitch: 0
+    loop: 0
+    stopOnPause: 0
+    source: {fileID: 0}
+  - name: disliked
+    clip: {fileID: 8300000, guid: 759a7d45b23e54d46a3c67d595be43ac, type: 3}
+    volume: 0.5
+    pitch: 1
+    randomPitch: 0
+    loop: 0
+    stopOnPause: 0
+    source: {fileID: 0}
+  - name: shared
+    clip: {fileID: 8300000, guid: 8dc314cca1e9f8b48be777948879424a, type: 3}
+    volume: 0.02
+    pitch: 1
+    randomPitch: 0
+    loop: 0
+    stopOnPause: 0
+    source: {fileID: 0}
+  - name: goodShare
+    clip: {fileID: 8300000, guid: 44001470c00ee6b4eb5ec2bd05af38dc, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomPitch: 0
+    loop: 0
+    stopOnPause: 0
+    source: {fileID: 0}
+  - name: badShare
+    clip: {fileID: 8300000, guid: 0ee6d9435a1b0864e9cfcfaee22f9c4a, type: 3}
+    volume: 0.1
+    pitch: 1
+    randomPitch: 0
+    loop: 0
+    stopOnPause: 0
+    source: {fileID: 0}
+  - name: refresh
+    clip: {fileID: 8300000, guid: 86819b112c887df40bfdad7bfe9f1d63, type: 3}
+    volume: 0.4
+    pitch: 1
+    randomPitch: 0
+    loop: 0
+    stopOnPause: 0
+    source: {fileID: 0}
+  - name: win
+    clip: {fileID: 8300000, guid: 99ea0406b7526864ea06eedc5cfdb01e, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomPitch: 0
+    loop: 0
+    stopOnPause: 0
+    source: {fileID: 0}
+  - name: lose
+    clip: {fileID: 8300000, guid: 6a1932d13b27d964ea2ce7488ff6c25d, type: 3}
+    volume: 0.7
+    pitch: 1
+    randomPitch: 0
+    loop: 0
+    stopOnPause: 0
+    source: {fileID: 0}

@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 129708889}
   - component: {fileID: 129708888}
   - component: {fileID: 129708887}
+  - component: {fileID: 2574548918928006794}
   m_Layer: 5
   m_Name: Play Again
   m_TagString: Untagged
@@ -197,7 +198,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8284285470126891558}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: ResetScene
         m_Mode: 1
@@ -209,6 +210,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+--- !u!114 &2574548918928006794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129708885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8a3f2add3a31604d9fd6f00c4f8cc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &194602328
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,6 +370,7 @@ GameObject:
   - component: {fileID: 323909894}
   - component: {fileID: 323909893}
   - component: {fileID: 323909892}
+  - component: {fileID: 2574548918928006793}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -465,7 +479,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8284285470126891558}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: LoadMenu
         m_Mode: 1
@@ -477,6 +491,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+--- !u!114 &2574548918928006793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323909890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8a3f2add3a31604d9fd6f00c4f8cc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &763298312
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,7 +917,6 @@ GameObject:
   - component: {fileID: 2574548917687156759}
   - component: {fileID: 2574548917687156758}
   - component: {fileID: 2574548917687156745}
-  - component: {fileID: 8284285470126891558}
   m_Layer: 5
   m_Name: Win Screen
   m_TagString: Untagged
@@ -982,18 +1007,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &8284285470126891558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2574548917687156744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa473e688f1a89d42b12b59952bbfd05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2574548919057588029
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,6 +19,8 @@ public class TimelineController : MonoBehaviour
 
     public void RefreshTimeline()
     {
+        PlaySFX();
+
         PostContent oldNewtsContent = oldNewtsPrefab.GetComponent<PostDisplay>().content;
         StartCoroutine(CreateNewPost(oldNewtsContent));
 
@@ -59,5 +61,11 @@ public class TimelineController : MonoBehaviour
         GameObject newPost = Instantiate(prefabToInstantiate, transform.position, transform.rotation) as GameObject;
         newPost.transform.SetParent(this.transform, false);
         newPost.GetComponent<PostDisplay>().content = content;
+    }
+    
+    private void PlaySFX()
+    {
+        FindObjectOfType<AudioManager>().Play("click");
+        FindObjectOfType<AudioManager>().Play("refresh");
     }
 }

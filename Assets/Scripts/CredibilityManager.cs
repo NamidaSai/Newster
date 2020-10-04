@@ -22,6 +22,7 @@ public class CredibilityManager : MonoBehaviour
     {
         credibilityScore += amount;
         UpdateSliderValue();
+        PlaySFX(amount);
 
         if (credibilityScore >= winScore)
         {
@@ -37,16 +38,34 @@ public class CredibilityManager : MonoBehaviour
     private void TriggerWinCondition()
     {
         winScreen.SetActive(true);
+        FindObjectOfType<AudioManager>().Play("win");
     }
 
     private void TriggerLostCondition()
     {
         lostScreen.SetActive(true);
+        FindObjectOfType<AudioManager>().Play("lose");
     }
 
     private void UpdateSliderValue()
     {
         Slider slider = GetComponent<Slider>();
         slider.value = credibilityScore;
+    }
+
+    private void PlaySFX(float amount)
+    {
+        if (amount > 0)
+        {
+            FindObjectOfType<AudioManager>().Play("goodShare");
+        }
+        else if (amount < 0)
+        {
+            FindObjectOfType<AudioManager>().Play("badShare");
+        }
+        else
+        {
+            Debug.Log("Content has a 0 score modifier");
+        }
     }
 }
