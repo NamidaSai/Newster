@@ -10,7 +10,7 @@ public class PostInteractions : MonoBehaviour
     private void Start() 
     {
         credibility = FindObjectOfType<CredibilityManager>(); 
-        content = GetComponent<PostDisplay>().content; 
+        content = GetComponent<PostDisplay>().content;
     }
 
     public void Liked()

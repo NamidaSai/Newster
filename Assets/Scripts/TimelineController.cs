@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TimelineController : MonoBehaviour
 {
-    [SerializeField] float delayBetweenNewPosts = 0.5f;
     [SerializeField] GameObject postPrefab = default;
     [SerializeField] GameObject randomPostPrefab = default;
 
@@ -42,7 +42,8 @@ public class TimelineController : MonoBehaviour
             InstantiatePost(randomPostPrefab, content);
         }
 
-        yield return new WaitForSeconds(delayBetweenNewPosts);
+        yield return new WaitForSeconds(0.01f);
+        LayoutRebuilder.ForceRebuildLayoutImmediate(GetComponent<RectTransform>());
     }
 
     private void InstantiatePost(GameObject prefabToInstantiate, PostContent content)
