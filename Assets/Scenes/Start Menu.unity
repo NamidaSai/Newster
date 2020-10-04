@@ -358,5 +358,60 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8724944351760088729, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}
+      propertyPath: m_text
+      value: "Thank you for signing up for the demo of our new social media platform:
+        Newster!\nOur proprietary credibility score will determine how  infuential
+        you are. \nGrow it by sharing credible, reliable Newts. Be warned that your
+        followers will be unforgiving of any bias or lies. Don't waste their time!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724944351760088729, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724944351760088729, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}
+      propertyPath: m_lineSpacing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724944351760088729, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}
+      propertyPath: m_paragraphSpacing
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724944351854911499, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724944351854911499, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}
+      propertyPath: m_Color.g
+      value: 0.93479246
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724944351854911499, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7962264
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724944351959427227, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724944351959427227, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}
+      propertyPath: m_Color.g
+      value: 0.93479246
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724944351959427227, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7962264
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724944352157295302, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724944352157295302, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}
+      propertyPath: m_Color.g
+      value: 0.93479246
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724944352157295302, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7962264
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42ba55781c3ec05458511e753d2f0182, type: 3}

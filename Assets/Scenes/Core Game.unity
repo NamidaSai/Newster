@@ -1310,15 +1310,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4589526823692555752, guid: a439f1c7a96e7104b8101019e2fa50a2, type: 3}
-      propertyPath: m_text
-      value: You're really gullible, aren't you? Damn. And people noticed, ya know.
-        Nobody trusts what you post.
-      objectReference: {fileID: 0}
-    - target: {fileID: 4589526823692555754, guid: a439f1c7a96e7104b8101019e2fa50a2, type: 3}
-      propertyPath: m_Name
-      value: Lost Text
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a439f1c7a96e7104b8101019e2fa50a2, type: 3}
 --- !u!1 &1617020505 stripped
@@ -1969,6 +1960,13 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 113.660355
       objectReference: {fileID: 0}
+    - target: {fileID: 2225667119377004465, guid: 90d9a2fa864b87945a32a32c26349a5f, type: 3}
+      propertyPath: m_text
+      value: "Ready to share your first Newt?\nClick the refresh button to start!\n\nElves,
+        dwarves, trolls, goblins,  or even human, all are welcome to newt here to
+        their heart's desire! \n\nMake sure to monitor your credibility score!\n\n       
+        Like            Share         Dislike"
+      objectReference: {fileID: 0}
     - target: {fileID: 4563395487660552496, guid: 90d9a2fa864b87945a32a32c26349a5f, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
@@ -2134,14 +2132,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1798641206, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-    - target: {fileID: 1798641206, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 2574548917687156744, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
       propertyPath: m_Name
       value: Win Screen

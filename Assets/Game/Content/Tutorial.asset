@@ -18,9 +18,9 @@ MonoBehaviour:
   type: 0
   scoreModifier: 0
   profileText: Newster
-  headlineText: "\n<= refresh button here!\n\nHi! Thank you for joining Newster,
-    your number 1 app to get up to date with the global news. \nElves, dwarves, trolls,
-    goblins,  or even human, all are welcome to post here to their heart's desire!
-    \n\n<= credibility score here!\n\n   Like                Share              Dislike"
+  headlineText: "Ready to share your first Newt?\nClick the refresh button to start!\n\nElves,
+    dwarves, trolls, goblins,  or even human, all are welcome to newt here to their
+    heart's desire! \n\nMake sure to monitor your credibility score!\n\n        Like           
+    Share         Dislike"
   featureImage: {fileID: 0}
   sourceText: 

@@ -7,9 +7,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 194602328, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
+      propertyPath: m_Name
+      value: Lost Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 194602330, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
+      propertyPath: m_text
+      value: 'Wow. We''ve never had a worse newtser ever. And we mean ever. Are you
+        really that gullible?
+
+        Do you not have a single ounce of sense, of
+        dignity?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 763298314, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
+      propertyPath: m_text
+      value: Better luck tomorrow maybe?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1798641206, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
+      propertyPath: m_text
+      value: Try Again
+      objectReference: {fileID: 0}
     - target: {fileID: 2574548917687156744, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
       propertyPath: m_Name
-      value: Win Screen
+      value: Lost Screen
       objectReference: {fileID: 0}
     - target: {fileID: 2574548917687156756, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
       propertyPath: m_LocalPosition.x
