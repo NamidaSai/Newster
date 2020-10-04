@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CredibilityManager : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class CredibilityManager : MonoBehaviour
     public void ModifyCredibility(float amount)
     {
         credibilityScore += amount;
+        UpdateSliderValue();
 
         if (credibilityScore >= winScore)
         {
@@ -40,5 +42,11 @@ public class CredibilityManager : MonoBehaviour
     private void TriggerLostCondition()
     {
         lostScreen.SetActive(true);
+    }
+
+    private void UpdateSliderValue()
+    {
+        Slider slider = GetComponent<Slider>();
+        slider.value = credibilityScore;
     }
 }

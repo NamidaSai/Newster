@@ -8,6 +8,6 @@ public class InteractionButton : MonoBehaviour
 
     public void TriggerClickedAffordance()
     {
-        GetComponent<Button>().enabled = false;
+        GetComponent<Button>().interactable = false;
     }
 }

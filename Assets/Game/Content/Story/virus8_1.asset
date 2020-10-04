@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ea7873c519f0d4cbe06cf5e9c980de, type: 3}
+  m_Name: virus8_1
+  m_EditorClassIdentifier: 
+  contentID: 
+  category: 1
+  storyIndex: 8
+  type: 0
+  scoreModifier: 3
+  profileText: TheListener
+  headlineText: 'Chief Scientist Mage Yazwa estimates it could take up to two years
+    to get the vaccine gel perfected. Current hypothesis include honey, beeswax and
+    swamp water as possible ingredients. '
+  featureImage: {fileID: 0}
+  sourceText: 
