@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 0
   storyIndex: 6
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: EllenSylphrena
   headlineText: I'm an elf, I live in Dagbuk. I'm scared. I've packed a bag, but
     dwarfs are screaming outside... What should I do?

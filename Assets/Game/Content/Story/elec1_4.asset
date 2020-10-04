@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 2
   storyIndex: 1
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: ChefsKiss
   headlineText: The new bagel from Orc Top Bakery is to die for! *_*
   featureImage: {fileID: 0}

@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 2
   storyIndex: 3
   type: 0
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: NotARacist
   headlineText: 'I''m not racist, but a troll with a human? Seriously? '
   featureImage: {fileID: 0}

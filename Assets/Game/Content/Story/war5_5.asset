@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 0
   storyIndex: 5
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: SteveMcDwarf
   headlineText: I... I have to admit, Pupuk is a stonehead. War? This is ridiculous.
   featureImage: {fileID: 0}

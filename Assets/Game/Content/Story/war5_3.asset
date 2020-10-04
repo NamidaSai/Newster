@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 0
   storyIndex: 5
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: UrR3gularDw4rf
   headlineText: 'Day: mine. Night: drink. Repeat. #ItsAWayOfLife'
   featureImage: {fileID: 0}

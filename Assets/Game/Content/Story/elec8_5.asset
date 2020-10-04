@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 2
   storyIndex: 8
   type: 0
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: UrR3gularDw4rf
   headlineText: Thank Dragon this bloody election is over! Pint?
   featureImage: {fileID: 0}

@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 3
   storyIndex: 5
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: SamuelGamgee
   headlineText: I don't understand why they'd want to take the dragons, honestly.
     I had bad experiences with 'em.

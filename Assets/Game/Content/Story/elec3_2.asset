@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 2
   storyIndex: 3
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: LimKartasian
   headlineText: 'Cheese, a good manuscript and my favourite brew. Perfect night <3 '
   featureImage: {fileID: 0}

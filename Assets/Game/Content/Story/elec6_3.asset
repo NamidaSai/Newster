@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 2
   storyIndex: 6
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: PorklyGobsack
   headlineText: Moral support? Surely we can do more than that, Borguk. Are you afraid
     of the populist troll media?

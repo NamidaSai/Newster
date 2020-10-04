@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 3
   storyIndex: 7
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: VeggerForLife
   headlineText: One veggie a day keeps bad thoughts away! <3
   featureImage: {fileID: 0}

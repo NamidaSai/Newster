@@ -7,6 +7,7 @@ public class TimelineController : MonoBehaviour
 {
     [SerializeField] GameObject postPrefab = default;
     [SerializeField] GameObject randomPostPrefab = default;
+    [SerializeField] GameObject oldNewtsPrefab = default;
 
     CollectionHandler collectionHandler;
     ContentCollection collection;
@@ -18,6 +19,9 @@ public class TimelineController : MonoBehaviour
 
     public void RefreshTimeline()
     {
+        PostContent oldNewtsContent = oldNewtsPrefab.GetComponent<PostDisplay>().content;
+        StartCoroutine(CreateNewPost(oldNewtsContent));
+
         collection = collectionHandler.GetContentCollection();
 
         foreach (PostContent content in collection.contents)
@@ -33,13 +37,17 @@ public class TimelineController : MonoBehaviour
     
     private IEnumerator CreateNewPost(PostContent content)
     {
-        if (content.type != PostType.Random)
+        if (content.type == PostType.Fake || content.type == PostType.News)
         {
             InstantiatePost(postPrefab, content);
         }
-        else
+        else if (content.type == PostType.Random)
         {
             InstantiatePost(randomPostPrefab, content);
+        }
+        else
+        {
+            InstantiatePost(oldNewtsPrefab, content);
         }
 
         yield return new WaitForSeconds(0.01f);

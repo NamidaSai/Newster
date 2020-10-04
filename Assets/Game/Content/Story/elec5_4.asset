@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 2
   storyIndex: 5
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: EllenSylphrena
   headlineText: It's hard to get used to the noise, but Valeries is a beautiful city.
     Hope I visit it again someday.

@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 0
   storyIndex: 7
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: WeAreAllHumans
   headlineText: I can't believe what's happening in Tinoriel... I have friends there
     doing their elven tapestry bachelor. Why attack?

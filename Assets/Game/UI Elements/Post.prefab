@@ -772,8 +772,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: RandomDude
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 087450b33ad342b42bdf1553789cbbea, type: 2}
+  m_sharedMaterial: {fileID: -3335449012640201958, guid: 087450b33ad342b42bdf1553789cbbea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1279,7 +1279,7 @@ GameObject:
   - component: {fileID: 4776269188172613339}
   - component: {fileID: 4776269188172613332}
   m_Layer: 5
-  m_Name: Random Post 1
+  m_Name: Post
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1763,8 +1763,8 @@ MonoBehaviour:
     eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
     in culpa qui officia deserunt mollit anim id est laborum."'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 087450b33ad342b42bdf1553789cbbea, type: 2}
+  m_sharedMaterial: {fileID: -3335449012640201958, guid: 087450b33ad342b42bdf1553789cbbea, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 1
   storyIndex: 1
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: SteveMcDwarf
   headlineText: Boils? That's just a regular Monday here, whatever.
   featureImage: {fileID: 0}

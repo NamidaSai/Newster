@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 0
   storyIndex: 2
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: OneElfToAnother
   headlineText: Look, I'm not saying dwarfs are stupid. I'm just saying they need
     to GROW UP! Haha.

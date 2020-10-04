@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 0
   storyIndex: 3
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: SteveMcDwarf
   headlineText: OH MY DRAGON, I saw some blue light last night, this is NOT A JOKE!
   featureImage: {fileID: 0}

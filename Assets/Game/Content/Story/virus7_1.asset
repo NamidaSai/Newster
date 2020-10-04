@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 1
   storyIndex: 7
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: WeAreAllHumans
   headlineText: Please, I beg you. Listen to the scientists Wear your suits. Protect
     each other. #WeAreAllHumans

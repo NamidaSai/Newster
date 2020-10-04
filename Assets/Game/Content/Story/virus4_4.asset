@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 1
   storyIndex: 4
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: AlanTwickmain
   headlineText: She said YES! OMD I'm so happy right now!!! #Blessed
   featureImage: {fileID: 0}

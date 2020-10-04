@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 1
   storyIndex: 2
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: AlanTwickmain
   headlineText: Going for a nice lunch out with my goblin girlfriend <3 Got a little
     surprise for her! #WeAreAllHumans

@@ -1002,6 +1002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   postPrefab: {fileID: 4776269188172613334, guid: 32ce251d8c08afb449ef81295f3ee3a4, type: 3}
   randomPostPrefab: {fileID: 4776269188172613334, guid: 32ce251d8c08afb449ef81295f3ee3a4, type: 3}
+  oldNewtsPrefab: {fileID: 7099978699512957430, guid: 2b0fe4fda7cba7d4f9f99b46628ebbbc, type: 3}
 --- !u!1 &1480331480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,7 +1068,7 @@ MonoBehaviour:
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 1691068490}
   m_HorizontalScrollbarVisibility: 0
-  m_VerticalScrollbarVisibility: 1
+  m_VerticalScrollbarVisibility: 0
   m_HorizontalScrollbarSpacing: 0
   m_VerticalScrollbarSpacing: 0
   m_OnValueChanged:
@@ -1667,7 +1668,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4776269187452502921, guid: 32ce251d8c08afb449ef81295f3ee3a4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -254.1821
+      value: -249.47209
       objectReference: {fileID: 0}
     - target: {fileID: 4776269188172613334, guid: 32ce251d8c08afb449ef81295f3ee3a4, type: 3}
       propertyPath: m_Name
@@ -1691,11 +1692,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4776269188280726046, guid: 32ce251d8c08afb449ef81295f3ee3a4, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -130.6367
+      value: -128.28171
       objectReference: {fileID: 0}
     - target: {fileID: 4776269188280726046, guid: 32ce251d8c08afb449ef81295f3ee3a4, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 200.6
+      value: 195.89
       objectReference: {fileID: 0}
     - target: {fileID: 7205741751645418656, guid: 32ce251d8c08afb449ef81295f3ee3a4, type: 3}
       propertyPath: m_AnchorMin.y
@@ -1803,7 +1804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7205741751645418659, guid: 32ce251d8c08afb449ef81295f3ee3a4, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 282.4275
+      value: 277.71747
       objectReference: {fileID: 0}
     - target: {fileID: 7205741751645418659, guid: 32ce251d8c08afb449ef81295f3ee3a4, type: 3}
       propertyPath: m_AnchorMin.x
@@ -1916,10 +1917,6 @@ PrefabInstance:
       value: Tutorial Post
       objectReference: {fileID: 0}
     - target: {fileID: 2225667119377004428, guid: 90d9a2fa864b87945a32a32c26349a5f, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 113.660355
-      objectReference: {fileID: 0}
-    - target: {fileID: 2225667119377004428, guid: 90d9a2fa864b87945a32a32c26349a5f, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
@@ -1935,9 +1932,9 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2225667119396754060, guid: 90d9a2fa864b87945a32a32c26349a5f, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -23.299927
+    - target: {fileID: 2225667119377004428, guid: 90d9a2fa864b87945a32a32c26349a5f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 113.660355
       objectReference: {fileID: 0}
     - target: {fileID: 4563395487660552496, guid: 90d9a2fa864b87945a32a32c26349a5f, type: 3}
       propertyPath: m_AnchorMin.y
@@ -2104,13 +2101,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1798641206, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 1798641206, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 2574548917687156744, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
       propertyPath: m_Name
       value: Win Screen
       objectReference: {fileID: 0}
     - target: {fileID: 2574548917687156744, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2574548917687156756, guid: 68653b5bfa267a44a8ecfd413ca60fd5, type: 3}
       propertyPath: m_LocalPosition.x

@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 0
   storyIndex: 3
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: OneElfToAnother
   headlineText: I think dwarves need to chill out, have a veggie or two. Stop mining
     for two seconds, ya know? Enjoy life a little?

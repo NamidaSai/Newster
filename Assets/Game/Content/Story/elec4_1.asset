@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 2
   storyIndex: 4
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: UrR3gularDw4rf
   headlineText: I'd tap that too, to be honest. No shame, Rollo!
   featureImage: {fileID: 0}

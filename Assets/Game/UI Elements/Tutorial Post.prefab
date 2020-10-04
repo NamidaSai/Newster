@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4776269187484667538, guid: 32ce251d8c08afb449ef81295f3ee3a4, type: 3}
+      propertyPath: m_text
+      value: Newster
+      objectReference: {fileID: 0}
     - target: {fileID: 4776269188172613334, guid: 32ce251d8c08afb449ef81295f3ee3a4, type: 3}
       propertyPath: m_Name
       value: Tutorial Post
@@ -15,6 +19,10 @@ PrefabInstance:
       propertyPath: content
       value: 
       objectReference: {fileID: 11400000, guid: 8d65e57483d043142976b25afd9002a7, type: 2}
+    - target: {fileID: 4776269188267185950, guid: 32ce251d8c08afb449ef81295f3ee3a4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -23.299927
+      objectReference: {fileID: 0}
     - target: {fileID: 7205741751645418659, guid: 32ce251d8c08afb449ef81295f3ee3a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

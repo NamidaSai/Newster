@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 2
   storyIndex: 3
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: LauraGo
   headlineText: Soooo... apparently Liara is seeing Rollo #OTP ???
   featureImage: {fileID: 0}

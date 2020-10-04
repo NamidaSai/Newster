@@ -16,7 +16,7 @@ MonoBehaviour:
   category: 3
   storyIndex: 2
   type: 2
-  scoreModifier: 0
+  scoreModifier: -5
   profileText: PorklyGobsack
   headlineText: 'With the Wizards Guild unsupervised, are we sure the country will
     be safe? '
